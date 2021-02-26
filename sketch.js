@@ -49,7 +49,7 @@ function draw() {
     dustbinObj.display();
 	drawSprites();
 	if(keyDown("space")){
-		Matter.Body.applyForce(paperObj,paperObj.position,{x:7,y:-7});
+		Matter.Body.applyForce(paperObj,paperObj.position,{x:5,y:-5});
 	}
 }
 
